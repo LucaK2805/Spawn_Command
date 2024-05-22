@@ -1,0 +1,12 @@
+name: Spawn_Command
+version: '1.0'
+main: test.spawn_command.Spawn_Command
+api-version: '1.20'
+description: Ein Plugin, das Spieler zum Spawn teleportiert.
+commands:
+  spawn:
+    description: Teleportiert den Spieler zum Spawn.
+    usage: /spawn
+  setspawn:
+    description: Setzt den aktuellen Standort des Spielers als neuen Spawnpunkt.
+    usage: /setspawn
